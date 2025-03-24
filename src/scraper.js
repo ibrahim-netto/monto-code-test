@@ -27,7 +27,7 @@ export class CrexiScraper {
         console.info(`${this.#name} started.`);
         /*
             @TODO implementation using the utility functions.
-         */
+        **/
         const properties = [];
 
         console.info(`${this.#name} ended.`);
