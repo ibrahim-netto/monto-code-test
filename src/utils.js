@@ -45,7 +45,7 @@ export async function searchProperties(rootUrl, query) {
  */
 export async function getPropertyDetails(authentication, property) {
     const details = {
-        brokerEmail: "" // Only this information is required.
+        brokerPhone: "" // Only this information is required.
     };
     // @TODO implementation.
 
@@ -66,7 +66,7 @@ export async function mapProperty(property) {
         name: "",
         status: "",
         location: "",
-        brokerEmail: ""
+        brokerPhone: ""
     };
 
     return mappedProperty;
