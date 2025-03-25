@@ -24,7 +24,7 @@ export class CrexiScraper {
      * @return {MappedProperty[]} A list of mapped properties.
      */
     async scrape(query) {
-        console.info(`${this.#name} started.`);
+        console.info(`${this.#name} scraper started.`);
         /*
             @TODO implementation using the utility functions.
         **/

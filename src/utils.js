@@ -1,16 +1,4 @@
 /**
- * @typedef MappedProperty
- *
- * @type {object}
- * @property {string} id - A property ID.
- * @property {string} name - A property name.
- * @property {string} description - A property description.
- * @property {string} status - A property status.
- * @property {string} location - A property location.
- * @property {string} brokerEmail - A property broker email.
- */
-
-/**
  * Get portal authentication data.
  *
  * @param {string} rootUrl - Root URL.
@@ -51,6 +39,18 @@ export async function getPropertyDetails(authentication, property) {
 
     return details;
 }
+
+/**
+ * @typedef MappedProperty
+ *
+ * @type {object}
+ * @property {string} id - A property ID.
+ * @property {string} name - A property name.
+ * @property {string} description - A property description.
+ * @property {string} status - A property status.
+ * @property {string} location - A property location.
+ * @property {string} brokerEmail - A property broker email.
+ */
 
 /**
  * Map a raw property.

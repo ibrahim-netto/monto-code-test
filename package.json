@@ -16,10 +16,5 @@
   "bugs": {
     "url": "https://github.com/ibrahim-netto/monto-code-test/issues"
   },
-  "homepage": "https://github.com/ibrahim-netto/monto-code-test#readme",
-  "dependencies": {
-    "delay": "^6.0.0",
-    "node-fetch": "^3.3.2",
-    "puppeteer": "^22.6.5"
-  }
+  "homepage": "https://github.com/ibrahim-netto/monto-code-test#readme"
 }
